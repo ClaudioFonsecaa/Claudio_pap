@@ -14,7 +14,7 @@ Construção de uma plataforma web que permita a todos os utilizadores consultar
   
   Permitir a obtenção de informação acerca do grau de satisfação dos empregadores.
   
-  PHP, HTML , JAVASCRIPT, CSS, SQL; 
+  PHP, HTML , JAVASCRIPT, CSS, SQL Google Charts; 
   
   <img src="img2.PNG">
   <img src="img3.PNG">
