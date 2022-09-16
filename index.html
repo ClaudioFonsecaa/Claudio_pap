@@ -1,0 +1,56 @@
+<?php
+session_start();
+
+
+?>
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Bem-Vindos</title>
+      <link rel="stylesheet" href="css/style.css">
+	  
+		
+		<link rel="shortcut icon" href="./img/favicon.ico" >
+	  
+	  
+</head>
+
+<body>
+
+	<div id="titulo">
+	<h1>Serviço de Psicologia e Orientação</h1>
+	<h1>(SPO)</h1>
+	</div>
+	
+	
+
+	<div class="login-page">
+	<div class="form">
+	
+	
+    <form class="login-form" method="POST" action="./pages/login.php">
+      <input type="text" placeholder="Utilizador" name="login" pattern="[A-Za-z]{5,}" title="Deve conter no mínimo 5 letras, sem caracters especiais!" required=""/>
+	  <img id="icon" src="./img/usericon.png" alt="">
+      <input type="password" placeholder="Password" name="senha" required=""/>
+	  <img id="icon" src="./img/passicon.png" alt="">
+	  <input type="submit" value="ENTRAR" id="botoes" name="entrar"><br>
+      <p class="message">Não está registado? <a href='./pages/registoalun.php'>Criar conta</a></p>
+	  <p class="message"><a href='./pages/recuperarPassword.php'>Esqueceu-se?</a></p>
+    </form>
+  </div>
+</div>
+ 
+	<div id="logo_sico"><img id="sico_logo" src="./img/logo_sico.png" width="250" height="100" alt=""></div>
+	<!--<?php include './pages/footer.php';?>-->
+	
+	<div class="rodape">
+	<center>
+		<font style="text-align:center;font-size:15px;" face="'PT Sans', sans-serif" color="#000000" >© Copyright - 2017 | Cláudio Correia - SPO | Todos os direitos reservados </font>
+	</center>
+	</div>
+	
+</body>
+</html>
+
